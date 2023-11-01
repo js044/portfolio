@@ -1,0 +1,30 @@
+ BaseURL = " "
+  languageCode = "en-us"
+  defaultContentLanguage = "en"
+  baseURL = "/"
+  title = " "
+  relativeURLS = true
+
+  [taxonomies]
+  tag = "tags"
+
+  [permalinks]
+  post = "/:title/"
+  issues = "/:sections[1:]/:title"
+
+  [params]
+  author = ""
+  fullImage = ""
+  description = "Jay makes things."
+  custom_css = ["css/main.scss"]
+  custom_js = ["js/theme.js"] 
+
+      
+ [frontmatter]
+    date = ["date", "publishDate", "lastmod"]
+    lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
