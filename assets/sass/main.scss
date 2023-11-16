@@ -1,0 +1,127 @@
+$color_light: #ffc5fd;
+$color_light_accent: #55288f;
+$color_dark: #300f5b;
+$color_dark_accent: #fef0eb;
+$body_font: "National Park";
+$logo_dark: url(/images/logos/pink_logo.png);
+$logo_light: url(/images/logos/blue_logo.png);
+
+@font-face {
+	font-family: "National Park";
+	src: url(../fonts/NationalPark-Regular.woff);
+}
+@font-face {
+	font-family: "National Park";
+	src: url(../fonts/NationalPark-Bold.woff);
+	font-weight: bold;
+}
+:root {
+	--color-background: #{$color_dark};
+	--color-foreground: #{$color_light};
+	--color-accent: #{$color_dark_accent};
+	--logo: #{$logo_dark};
+	--body-font: #{$body_font};
+}
+.lightmode {
+	--color-background: #{$color_light};
+	--color-foreground: #{$color_dark};
+	--color-accent: #{$color_light_accent};
+	--logo: #{$logo_light};
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: var(--color-background);
+	color: var(--color-foreground);
+	scrollbar-color: var(--color-background) var(--color-foreground);
+	font-family: $body_font;
+	transition: 0.5s ease-in;
+}
+a {
+	border: 1px;
+	color: var(--color-foreground);
+	text-decoration: none;
+	&:hover {
+		color: var(--color-foreground);
+		text-decoration: var(--color-foreground) wavy underline;
+	}
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1.5em;
+	ul {
+		font-size: 1.1rem;
+		text-transform: uppercase;
+		list-style-type: none;
+		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		li {
+			padding: 0 10px;
+		}
+	}
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1.5em;
+	ul {
+		text-transform: uppercase;
+		list-style-type: none;
+		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		li {
+			padding-right: 10px;
+		}
+	}
+}
+.logo {
+	background: var(--logo) center no-repeat;
+	background-size: contain;
+	width: 12rem;
+	height: 7rem;
+	text-align: center;
+	filter: drop-shadow(0 0 40px var(--color-foreground));
+	&:hover {
+		transition: all 0.2s ease-in;
+		filter: drop-shadow(0 0 30px var(--color-foreground));
+	}
+}
+.container {
+	margin: 2em;
+}
+.light-mode-toggle {
+	z-index: 100;
+	margin: -5px 0 0 10px;
+	color: var(--color-foreground);
+	border: 2px solid;
+	padding: 4px;
+	background: transparent;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+}
+@media (max-width: 767px) {
+	.nav {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2.5em;
+		ul {
+			li {
+				padding: 0 5px;
+			}
+		}
+	}
+	.light-mode-toggle {
+		position: absolute;
+		top: 20px;
+		right: 15px;
+		font-size: 18px;
+	}
+}

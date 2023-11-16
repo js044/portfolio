@@ -1,8 +1,8 @@
- BaseURL = " "
+ BaseURL = "https://jayserrano.design"
   languageCode = "en-us"
   defaultContentLanguage = "en"
   baseURL = "/"
-  title = " "
+  title = "Jay Serrano"
   relativeURLS = true
 
   [taxonomies]

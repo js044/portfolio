@@ -1,0 +1,12 @@
+<head>
+{{ $style := resources.Get "/sass/main.scss" | toCSS | minify | fingerprint }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+{{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ .Title }}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Jay's design portfolio." />
+    <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.png' /> 
+</head>

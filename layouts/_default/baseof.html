@@ -1,1 +1,12 @@
-hey
+<!DOCTYPE html>
+<html lang="en-US">
+{{- partial "head.html" . -}}
+
+<body>
+    {{- partial "header.html" . -}}
+    {{- block "main" . }}{{- end }}
+    {{- partial "footer.html" . -}}
+    {{- partial "scripts.html" . -}}
+</body>
+
+</html>
