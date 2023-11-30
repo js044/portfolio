@@ -1,0 +1,56 @@
+@media (max-width: 767px) {
+
+	h1,
+	h2 {
+		text-align: center;
+	}
+
+	.hero {
+		margin: 1rem 0rem;
+		width: 100%;
+	}
+
+	.container {
+		margin: 2rem;
+	}
+
+	.nav {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2.5em;
+
+		ul {
+			li {
+				padding: 0 5px;
+			}
+		}
+	}
+
+	.light-mode-toggle {
+		position: absolute;
+		top: 20px;
+		right: 15px;
+		font-size: 18px;
+	}
+
+	.grid {
+		display: block;
+
+		>* {
+			padding: 1rem;
+		}
+	}
+
+	.bio-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.bio-pic {
+		align-self: center;
+		width: clamp(20em, calc(20rem + ((1vw - 0.48em) * 6.9444)), 25em);
+		margin: -1rem 0 1rem 0;
+	}
+
+}

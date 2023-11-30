@@ -1,0 +1,47 @@
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--color-foreground);
+
+	ul {
+		font-size: 1.1rem;
+		text-transform: uppercase;
+		list-style-type: none;
+		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+
+		li {
+			padding: 0 10px;
+		}
+	}
+}
+
+.logo {
+	background: var(--logo) center no-repeat;
+	background-size: contain;
+	width: 10rem;
+	height: 5rem;
+	text-align: center;
+	filter: drop-shadow(0 0 40px var(--color-foreground));
+
+	&:hover {
+		transition: all 0.2s ease-in;
+		filter: drop-shadow(0 0 30px var(--color-foreground));
+	}
+}
+
+.light-mode-toggle {
+	z-index: 100;
+	margin: -5px 0 0 10px;
+	color: var(--color-foreground);
+	border: 2px solid;
+	padding: 4px;
+	background: transparent;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+}

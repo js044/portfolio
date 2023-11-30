@@ -1,12 +1,17 @@
 <head>
-{{ $style := resources.Get "/sass/main.scss" | toCSS | minify | fingerprint }}
+  {{ $style := resources.Get "/sass/main.scss" | toCSS | minify | fingerprint }}
+  <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet" >
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-{{ $title := print .Site.Title " | " .Title }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-    <title>{{ .Title }}</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Jay's design portfolio." />
-    <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.png' /> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  
+  {{ $title := print .Site.Title " | " .Title }}
+  {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  <title>{{ .Title }}</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Jay's design portfolio." />
+  <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/images/favicon.svg" sizes="any" type="image/svg+xml">
+
 </head>

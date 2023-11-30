@@ -1,0 +1,35 @@
+$color_light: #ffc5fd;
+$color_light_accent: #4b13ad;
+$color_dark: #300f5b;
+$color_dark_accent: #e0c8ff;
+$body_font: "Roboto";
+$header_font: "Sunsive";
+$logo_dark: url(/images/logos/pink_logo_m.png);
+$logo_light: url(/images/logos/blue_logo_m.png);
+
+:root {
+	--color-background: #{$color_dark};
+	--color-foreground: #{$color_light};
+	--color-accent: #{$color_dark_accent};
+	--logo: #{$logo_dark};
+	--body-font: #{$body_font};
+}
+
+.lightmode {
+	--color-background: #{$color_light};
+	--color-foreground: #{$color_dark};
+	--color-accent: #{$color_light_accent};
+	--logo: #{$logo_light};
+}
+
+h1 {
+	font-size: clamp(2.4rem, calc(2.4rem + ((1vw - 0.48rem) * 0.8333)), 3rem);
+	min-height: 0vw;
+	margin-top: 0.8em;
+  }
+  
+
+h2 {
+	font-size: clamp(1.8rem, calc(1.8rem + ((1vw - 0.48rem) * 0.5556)), 2.2rem);
+	min-height: 0vw;
+}
