@@ -1,5 +1,51 @@
 .grid {
 	display: grid;
-	grid-auto-rows: 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2em;
+	margin: 2em 0;
+}
+
+.grid-item {
+	border: 1px solid var(--color-foreground);
+	box-shadow: 0.4em 0.4em 0em var(--color-drop);
+	padding: 1em;
+	transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+.card-img {
+	max-width: 100%;
+	border: 1px solid var(--color-foreground);
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.readmore {
+	padding-top: 1em;
+	align-self: flex-end;
+	margin-top: auto;
+}
+
+.filter-btn {
+	padding: 0.5em 1em;
+	margin: 0 5px 5px 0;
+	border-radius: 2em;
+	border: 1.5px solid var(--color-foreground);
+	background-color: var(--color-background);
+	color: var(--color-foreground);
+	cursor: pointer;
+	transition: 0.3s ease;
+
+	&:hover {
+		background-color: var(--color-foreground);
+		color: var(--color-background);
+	}
+
+	&.active {
+		color: var(--color-background);
+		background-color: var(--color-foreground);
+	}
 }

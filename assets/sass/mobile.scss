@@ -11,7 +11,7 @@
 	}
 
 	.container {
-		margin: 2rem;
+		padding: 2rem;
 	}
 
 	.nav {
@@ -41,16 +41,20 @@
 		}
 	}
 
-	.bio-container {
+	#bio-container {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 
-	.bio-pic {
+	#bio-pic {
 		align-self: center;
 		width: clamp(20em, calc(20rem + ((1vw - 0.48em) * 6.9444)), 25em);
 		margin: -1rem 0 1rem 0;
+	}
+
+	.work {
+		text-align: center;
 	}
 
 }

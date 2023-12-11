@@ -1,5 +1,6 @@
 @import "variables";
 @import "fonts";
+@import "mixins";
 @import "index";
 @import "nav";
 @import "footer";
@@ -8,7 +9,6 @@
 @import "scrollbar";
 @import "mobile";
 @import "tablet";
-
 
 * {
 	box-sizing: border-box;
@@ -23,31 +23,47 @@ body {
 
 p {
 	line-height: 1.8;
-	font-size: clamp(0.95rem, calc(0.95rem + ((1vw - 0.48rem) * 0.2083)), 1.1rem);
+	font-size: clamp(0.9rem, calc(0.9rem + ((1vw - 0.48rem) * 0.2083)), 1rem);
 	min-height: 0vw;
+	@include selection(var(--color-accent), var(--color-background));
+	&:first-child  {
+		margin-top: 0;
+	}
 }
 
 a {
 	color: var(--color-accent);
 	text-decoration: var(--color-foreground) wavy underline;
 	text-underline-offset: 5px;
-
+	@include selection(var(--color-accent), var(--color-background));
 	&:hover {
 		text-shadow: 0 0 15px var(--color-accent);
 	}
 }
 
-h1,
-h2 {
-	font-family: $header-font;
-	background: linear-gradient(to right, var(--color-foreground), var(--color-accent));
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+em {
+	@include selection(var(--color-accent), var(--color-background));
 }
 
-p:first-child {
-	margin-top: 0px;
+h1 {
+	font-size: clamp(2.4rem, calc(2.4rem + ((1vw - 0.48rem) * 0.8333)), 3rem);
+	min-height: 0vw;
+	margin-top: 0.8em;
+	text-shadow: 3px 3px 0 var(--color-drop);
+  }
+  
+
+h2 {
+	font-size: clamp(1.8rem, calc(1.8rem + ((1vw - 0.48rem) * 0.5556)), 2.2rem);
+	min-height: 0vw;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: $header-font;
+	@include selection(var(--color-accent), var(--color-background));
 }
 
 .page-title {

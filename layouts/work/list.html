@@ -1,12 +1,25 @@
 {{ define "main" }}
-{{ .Content }}
 <h1 class="page-title">{{ .Title }}</h1>
+<div class="work">
+{{ .Content }}
+<button class="filter-btn active" onclick="filterPosts('all', this)">All</button>
+<button class="filter-btn" onclick="filterPosts('uiuxdesign', this)">UI/UX Design</button>
+<button class="filter-btn" onclick="filterPosts('webdevelopment', this)">Web Development</button>
+<button class="filter-btn" onclick="filterPosts('productdesign', this)">Product Design</button>
+<button class="filter-btn" onclick="filterPosts('branding', this)">Branding</button>
+</div>
 <div class="grid">
   {{ range .Pages }}
-  <article>
-    <h2>{{ .Title }}</h2>
-    {{ .Content }}
-  </article>
+  <div class="grid-item" data-categories="{{ range .Params.tags }}{{ . }} {{ end }}">
+    <article>
+      {{- $image := resources.Get .Params.featured_image -}}
+      <img class="card-img" src="{{ ($image).RelPermalink }}">
+      <h3>{{ .Title }}</h3>
+      {{ .Summary }}
+      <p class="readmore"><a href="{{ .Permalink }}">Read more <i class="fa-solid fa-arrow-right"></i> </a></p>
+    </article>
+  </div>
   {{ end }}
 </div>
+<script src="/js/filter-posts.js" ></script>
 {{ end }}

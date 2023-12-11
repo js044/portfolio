@@ -1,5 +1,25 @@
 {{ define "main" }}
-<div class="hero">
-    {{.Content}}
+<div class="hero-container">
+    <div class="hero">
+        {{.Content}}
+    </div>
 </div>
+
+<h1 class="page-title">Featured Work</h1>
+<div class="grid">
+    {{ range where .Site.RegularPages "Params.tags" "intersect" (slice "featured") }}
+    <div class="grid-item">
+        <article>
+            {{- $image := resources.Get .Params.featured_image -}}
+            <img class="card-img" src="{{ ($image).RelPermalink }}">
+            <h3>{{ .Title }}</h3>
+            {{ .Summary }}
+            <p class="readmore"><a href="{{ .Permalink }}">Read more <i class="fa-solid fa-arrow-right"></i> </a>
+            </p>
+        </article>
+    </div>
+    {{ end }}
+</div>
+
+
 {{ end }}

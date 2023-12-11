@@ -1,0 +1,6 @@
+@mixin selection($background, $color) {
+	&::selection {
+	  background: $background;
+	  color: $color;
+	}
+  }

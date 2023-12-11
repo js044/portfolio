@@ -1,0 +1,7 @@
+<h1>Featured Work</h1>
+	<ul>
+	  {{ range first 3 .Site.Taxonomies.tags.featured }}
+		  <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+		  </li>
+	  {{ end }}
+	</ul>

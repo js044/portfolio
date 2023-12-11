@@ -1,8 +1,15 @@
-.hero {
-	margin: 3rem 0rem;
+.container {
+	padding: 2rem 6rem;
+}
+
+.hero-container {
+	display: flex;
+}
+
+.hero {	
 	width: 75%;
 }
 
-.container {
-	margin: 2rem 6rem;
+.hero-img {	
+	width: 25%;
 }
