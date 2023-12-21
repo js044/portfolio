@@ -9,6 +9,11 @@ $header_font: "Sunsive";
 $logo_dark: url(/images/logos/pink_logo_m.png);
 $logo_light: url(/images/logos/blue_logo_m.png);
 
+$bg-color: var(--color-background);
+$fg-color: var(--color-foreground);
+$a-color: var(--color-accent);
+$drop-color: var(--color-drop);
+
 :root {
 	--color-background: #{$color_dark};
 	--color-foreground: #{$color_light};

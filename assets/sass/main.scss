@@ -7,6 +7,7 @@
 @import "work";
 @import "about";
 @import "scrollbar";
+@import "contact";
 @import "mobile";
 @import "tablet";
 
@@ -15,8 +16,8 @@
 }
 
 body {
-	background-color: var(--color-background);
-	color: var(--color-foreground);
+	background-color:$bg-color;
+	color: $fg-color;
 	font-family: $body_font;
 	transition: 0.5s ease-in;
 }
@@ -25,31 +26,27 @@ p {
 	line-height: 1.8;
 	font-size: clamp(0.9rem, calc(0.9rem + ((1vw - 0.48rem) * 0.2083)), 1rem);
 	min-height: 0vw;
-	@include selection(var(--color-accent), var(--color-background));
-	&:first-child  {
-		margin-top: 0;
-	}
+	@include selection($a-color,$bg-color);
 }
 
 a {
-	color: var(--color-accent);
-	text-decoration: var(--color-foreground) wavy underline;
+	color: $a-color;
+	text-decoration: $fg-color wavy underline;
 	text-underline-offset: 5px;
-	@include selection(var(--color-accent), var(--color-background));
+	@include selection($a-color,$bg-color);
 	&:hover {
-		text-shadow: 0 0 15px var(--color-accent);
+		text-shadow: 0 0 15px $a-color;
 	}
 }
 
 em {
-	@include selection(var(--color-accent), var(--color-background));
+	@include selection($a-color,$bg-color);
 }
 
 h1 {
-	font-size: clamp(2.4rem, calc(2.4rem + ((1vw - 0.48rem) * 0.8333)), 3rem);
-	min-height: 0vw;
-	margin-top: 0.8em;
-	text-shadow: 3px 3px 0 var(--color-drop);
+	font-size: calc(clamp(2.2rem, 1.45rem + 2.4vw, 2.8rem));
+	min-height: 0vw;	
+	text-shadow: 3px 3px 0 $drop-color;
   }
   
 
@@ -63,9 +60,16 @@ h2,
 h3,
 h4 {
 	font-family: $header-font;
-	@include selection(var(--color-accent), var(--color-background));
+	margin-bottom: 0em;
+	@include selection($a-color,$bg-color);
 }
 
 .page-title {
 	text-transform: uppercase;
 }
+
+.responsive-img {
+	max-width: 100%;
+	height: auto;
+}
+

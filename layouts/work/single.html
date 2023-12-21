@@ -1,1 +1,16 @@
-single work ppages
+{{ define "main" }}
+<link href="/css/lightbox.min.css" rel="stylesheet">
+<article class="content">
+    <div class="content-header">
+        <img src="{{ .Params.featured_image }}" alt="Thumbnail Image" class="thumbnail">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <aside>
+            {{ .TableOfContents }}
+        </aside>
+        {{ .Content }}
+    </div>
+</article>
+
+<script src="/js/svg.js"></script>
+<script src="/js/lightbox-plus-jquery.min.js"></script>
+{{ end }}

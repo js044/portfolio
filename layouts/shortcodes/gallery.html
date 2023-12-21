@@ -1,0 +1,19 @@
+{{ $dir := string (.Get "gallery_dir") }}
+<ul class="image-gallery">
+{{ $images := resources.Match (printf "images/%s/*" $dir) }}
+{{ if $images }}
+    {{ range $images }}
+        {{ $image := . | resources.Get }}
+        {{ $imageNameParts := split $image.Name "/" }}
+        {{ $imageName := index $imageNameParts (sub (len $imageNameParts) 1) }}
+        {{ $imagetitle := index (split $imageName ".") 0 }}
+        <li>
+            <a href="{{ $image.Permalink }}" data-lightbox="gallery" title="{{ $imagetitle }}" class="lightbox-image">
+                <img src="{{ $image.Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">            
+            </a>
+        </li>
+    {{ end }}
+{{ else }}
+    <p>No images found in '{{ $dir }}'</p>
+{{ end }}
+</ul>

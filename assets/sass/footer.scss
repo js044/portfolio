@@ -3,7 +3,8 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	border-top: 1px solid var(--color-foreground);
+	border-top: 1px solid $fg-color;
+	margin-top: 2em;
 
 	ul {
 		list-style-type: none;

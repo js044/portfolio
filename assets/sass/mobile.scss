@@ -1,13 +1,15 @@
 @media (max-width: 767px) {
 
-	h1,
-	h2 {
+	h1{
 		text-align: center;
 	}
 
 	.hero {
 		margin: 1rem 0rem;
 		width: 100%;
+		h2 {
+			text-align: center;
+		}
 	}
 
 	.container {
@@ -17,7 +19,7 @@
 	.nav {
 		flex-direction: column;
 		align-items: center;
-		margin-top: 2.5em;
+		margin-top: 0.5em;
 
 		ul {
 			li {
@@ -34,10 +36,11 @@
 	}
 
 	.grid {
-		display: block;
+		display: block;		
 
 		>* {
 			padding: 1rem;
+			margin-bottom: 1rem;
 		}
 	}
 
@@ -50,11 +53,17 @@
 	#bio-pic {
 		align-self: center;
 		width: clamp(20em, calc(20rem + ((1vw - 0.48em) * 6.9444)), 25em);
-		margin: -1rem 0 1rem 0;
+		margin: 0rem 0 1rem 0;
 	}
 
 	.work {
 		text-align: center;
 	}
 
+	.thumbnail, .right-img, .left-img {
+	display: block;
+	float: none;		
+	max-width: 80vw;	
+	margin: 0.5em;
+}
 }

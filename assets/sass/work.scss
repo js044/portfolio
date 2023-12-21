@@ -6,15 +6,15 @@
 }
 
 .grid-item {
-	border: 1px solid var(--color-foreground);
-	box-shadow: 0.4em 0.4em 0em var(--color-drop);
+	border: 1px solid $fg-color;
+	box-shadow: 0.4em 0.4em 0em $drop-color;
 	padding: 1em;
 	transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
 }
 
 .card-img {
 	max-width: 100%;
-	border: 1px solid var(--color-foreground);
+	border: 1px solid $fg-color;
 }
 
 article {
@@ -33,19 +33,108 @@ article {
 	padding: 0.5em 1em;
 	margin: 0 5px 5px 0;
 	border-radius: 2em;
-	border: 1.5px solid var(--color-foreground);
-	background-color: var(--color-background);
-	color: var(--color-foreground);
+	border: 1.5px solid $fg-color;
+	background-color: $bg-color;
+	color: $fg-color;
 	cursor: pointer;
 	transition: 0.3s ease;
 
 	&:hover {
-		background-color: var(--color-foreground);
-		color: var(--color-background);
+		background-color: $fg-color;
+		color: $bg-color;
 	}
 
 	&.active {
-		color: var(--color-background);
-		background-color: var(--color-foreground);
+		color: $bg-color;
+		background-color: $fg-color;
 	}
 }
+
+.stack {
+	display: flex;		
+	flex-wrap: wrap;
+
+}
+  
+.right-img {
+	margin: 0 0 1em 2em;
+	float: right;
+	max-width: 30vw;	
+}
+
+  
+.left-img {
+	margin: 0 2em 1em 0;
+	float: left;
+	max-width: 30vw;
+}
+
+aside nav#TableOfContents {
+    border: 1px solid;
+	box-shadow: 6px 6px;
+    margin: 2em 0;
+	padding: 1.5em 0;
+    width: 35vw;
+	
+	&::before {
+		margin: 3rem 0 0 2rem;
+		content: 'Table of Contents:'; 
+		font-size: 1.2em;	
+		font-family: $header-font;	
+		text-decoration: underline;
+	}
+
+    ul {
+        list-style: square;         
+		padding-left: 3em;				
+
+        li {
+            line-height: 1.8;                   
+        }
+    }
+
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+
+.thumbnail {
+	margin: 2em 0 2em 2em;
+    width: 400px;	      
+	float: right;
+	border: 1px solid;
+}
+
+.inline-svg {
+	padding-right: 0.75rem;
+  }
+
+  .image-gallery {
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	display: grid block;
+	gap: 10px; /* Adjust gap between items */
+	list-style: none;
+	padding-left: 0;
+	overflow: auto;
+  
+	li {
+	  text-align: center;
+  
+	  a {
+		display: block;
+		text-decoration: none;		
+  
+		img {
+		  width: 100%;
+		  height: 200px; /* Adjust the height to maintain aspect ratio */
+		  object-fit: cover; /* Crop images to fit the specified dimensions */
+		}
+	  }
+	}
+  
+	/* Adjust grid layout for smaller screens */
+	@media (max-width: 767px) {
+	  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Fewer columns on smaller screens */
+	} 
+  }
+  

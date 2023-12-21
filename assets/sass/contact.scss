@@ -1,0 +1,48 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25em;
+  padding: 20px;
+  color: $bg-color;
+  background-color: $fg-color;
+  border: 1px solid $bg-color;
+  box-shadow: 6px 6px $drop-color;
+  
+  .form-field {
+    margin-bottom: 2em;
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid $bg-color;
+      border-radius: 4px;
+    }
+    
+    textarea {
+      resize: vertical;
+    }
+  }
+  
+  button {
+    padding: 10px 20px;
+    width: 8em;
+    border: none;
+    border-radius: 4px;
+    background-color: $bg-color;
+    color: $fg-color;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: $drop-color;
+    }
+  }
+}

@@ -3,23 +3,24 @@
     <div class="hero">
         {{.Content}}
     </div>
+    <img class="hero-img" src="/images/images/side.png">
 </div>
 
-<h1 class="page-title">Featured Work</h1>
+<h1 class="page-title">Featured Work</h1> 
 <div class="grid">
     {{ range where .Site.RegularPages "Params.tags" "intersect" (slice "featured") }}
     <div class="grid-item">
         <article>
-            {{- $image := resources.Get .Params.featured_image -}}
-            <img class="card-img" src="{{ ($image).RelPermalink }}">
+           
+      {{- $image := resources.Get .Params.featured_image -}} 
+      <img class="card-img" src="{{ ($image).RelPermalink }}">
             <h3>{{ .Title }}</h3>
-            {{ .Summary }}
+            <p>{{ .Summary }}</p>
             <p class="readmore"><a href="{{ .Permalink }}">Read more <i class="fa-solid fa-arrow-right"></i> </a>
             </p>
         </article>
     </div>
     {{ end }}
 </div>
-
 
 {{ end }}
