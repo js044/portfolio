@@ -3,23 +3,24 @@
 }
 
 .hero-container {
-	display: flex;
+	display: flex;	
 }
 
 .hero {	
-	flex-grow: 1;
+	width: 85%;
 }
 
 .hero-img {	
-	width: 280px;
-	height: 315px;
-	margin: 1em;
+	width: 223px;
+	height: 250px;
+	margin: 2em 0 0 2em;	
 }
 
 .svg-container {	
-	margin: 0 auto;
-	width: 200px; /* Adjust width */
-	height: 100px; /* Adjust height */
+	margin: 1em auto;			
+	transform: rotate(15deg);
+	width: 220px; 
+	height: 100px; 
   }
   
   .svg-container svg {

@@ -12,8 +12,22 @@
 		}
 	}
 
+	.hero-container {
+		flex-direction: column;
+	}
+
+
+	.hero-img {	
+		margin: 0 auto;	
+	}
+
+	
+.svg-container {	
+	margin: 3em auto;
+  }
+
 	.container {
-		padding: 2rem;
+		padding: 1rem;
 	}
 
 	.nav {
@@ -40,7 +54,7 @@
 
 		>* {
 			padding: 1rem;
-			margin-bottom: 1rem;
+			margin-bottom: 2rem;
 		}
 	}
 

@@ -6,6 +6,15 @@
     <img class="hero-img" src="/images/images/side.png">
 </div>
 
+<div class="svg-container">
+    <!-- Your SVG code here -->
+    <svg id="arrow" data-name="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.27 42.5">
+      <path d="m.5,7.14c33.02-19.91,64.48,9.57,52.7,28.01-7.34,11.49-26.14,2.03-20.47-15.76,8.29-26.02,60.29-6.47,68.2,16.12" style="fill: none; stroke: currentColor; stroke-linecap: round; stroke-miterlimit: 10;"/>
+      <polygon points="101.88 42.5 96.25 33.34 100.65 35.01 104.27 32.02 101.88 42.5" style="fill: currentColor; stroke-width: 0px;"/>
+    </svg>
+  </div>
+  
+
 <h1 class="page-title">Featured Work</h1> 
 <div class="grid">
     {{ range where .Site.RegularPages "Params.tags" "intersect" (slice "featured") }}
