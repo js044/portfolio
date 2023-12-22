@@ -73,3 +73,28 @@ h4 {
 	height: auto;
 }
 
+// Basic styling for the button
+#back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: $bg-color;
+	border: 1px solid $fg-color;
+	color: $fg-color;	
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+	z-index: 9999;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+  
+	&:hover {
+	  background-color: $fg-color;
+	  color: $bg-color;	   
+	}
+ 
+  }
+  

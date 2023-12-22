@@ -3,13 +3,13 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: $bg-color;
+    background: $drop-color;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: $fg-color;
     border-radius: 1ex;
-    border: 3px solid $bg-color;
+    border: 3px solid $drop-color;
 }
 
 * {

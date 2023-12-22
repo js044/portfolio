@@ -4,10 +4,15 @@
 
 <body>
     <div class="container">
-    {{- partial "header.html" . -}}
-    {{- block "main" . }}{{- end }}
-    {{- partial "footer.html" . -}}
+        {{- partial "header.html" . -}}
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
     </div>
+
+    <button id="back-to-top" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     {{- partial "scripts.html" . -}}
 </body>
 

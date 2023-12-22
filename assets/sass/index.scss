@@ -7,24 +7,44 @@
 }
 
 .hero {	
-	width: 100%;
+	width: 70%;
 }
 
-.hero-img {	
-	width: 223px;
-	height: 250px;
-	margin: 2em 0 0 2em;	
+.hero-img {			
+	display: flex;
+	justify-content: flex-end;	
+	width: 30%; 	
+	margin: 1em auto 0 auto;	
 }
 
-.svg-container {	
-	margin: 1em auto;			
-	transform: rotate(15deg);
-	width: 220px; 
-	height: 100px; 
+.hero-img svg {
+	max-height: 19em;	
   }
-  
-  .svg-container svg {
-	width: 100%; 
-	height: auto;
+
+.featured {
+	display: flex;	
+	align-items: center;
+}
+
+.arrow-svg {			
+	margin: 2em 0 0 3em;
+	width: 14em; 
+	height: 6em; 
+  }
+
+  .all {
+	display: flex;
+	text-align: center;
+	width: 155px;
+	padding: 0.5em 1em;	
+	border-radius: 2em;
+	border: 1.5px solid $fg-color;
+	text-decoration: none;
+	transition: 0.3s ease;
+
+	&:hover {
+		background-color: $fg-color;
+		color: $bg-color;
+	}
   }
   
