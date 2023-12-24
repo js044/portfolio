@@ -14,10 +14,7 @@
 
   [params]
   author = ""
-  fullImage = ""
   description = "Jay makes things."
-  custom_css = ["css/main.scss"]
-  custom_js = ["js/theme.js"] 
 
       
  [frontmatter]

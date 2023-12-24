@@ -59,6 +59,28 @@ article {
 	}
 }
 
+.post-navigation {
+    text-align: center;
+    margin-top: 1.5em;  
+	font-size: 1em;    
+
+    .btn {
+        display: inline-block;
+        margin: 0 0.25em;
+        padding: 12px;
+        border: 1px solid;          
+        text-decoration: none;
+        transition: filter 0.3s, color 0.3s, background-color 0.3s;
+		background-color: $bg-color;
+		color: $fg-color;
+		&:hover {
+			background-color: $fg-color;
+			color: $bg-color;
+		}
+    }
+}
+
+
 .stack {
 	display: flex;	
 	flex-wrap: wrap;
@@ -70,7 +92,6 @@ article {
 	float: right;
 	max-width: 30vw;	
 }
-
   
 .left-img {
 	margin: 1em 2em 1em 0;
@@ -152,6 +173,7 @@ aside nav#TableOfContents {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
+	margin: 15px 0;
   }
   
   .tag-button {
@@ -161,6 +183,6 @@ aside nav#TableOfContents {
 	border-radius: 4px;
 	padding: 6px 12px;
 	text-decoration: none;	
-	margin: 15px 0;
+	
   }
   
