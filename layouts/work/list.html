@@ -3,7 +3,7 @@
 <div class="work">
 {{ .Content }}
 <button class="filter-btn active" onclick="filterPosts('all', this)">All</button>
-<button class="filter-btn" onclick="filterPosts('uiuxdesign', this)">UI/UX Design</button>
+<button class="filter-btn" onclick="filterPosts('webdesign', this)">UI/UX Design</button>
 <button class="filter-btn" onclick="filterPosts('webdevelopment', this)">Web Development</button>
 <button class="filter-btn" onclick="filterPosts('productdesign', this)">Product Design</button>
 <button class="filter-btn" onclick="filterPosts('branding', this)">Branding</button>
@@ -14,9 +14,9 @@
     <article>
       {{- $image := resources.Get .Params.featured_image -}} 
       <img class="card-img" src="{{ ($image).RelPermalink }}">
- 
       <h3>{{ .Title }}</h3>
-      <p>{{ .Summary }}</p>
+      {{- partial "taglist.html" . -}}
+      <p>{{ .Summary }}</p>   
       <p class="readmore"><a href="{{ .Permalink }}">Read more <i class="fa-solid fa-arrow-right"></i> </a></p>
     </article>
   </div>

@@ -1,7 +1,7 @@
 ---
 title: "Cicada Creative Magazine"
 weight: 1
-tags: ["featured", "uiuxdesign", "webdevelopment"]
+tags: ["featured", "webdesign", "webdevelopment", "branding"]
 featured_image: /images/work/thumb/ccm_thumb.gif
 summary: An interdisciplinary publication that showcases community creativity. I founded it, co-designed and developed the website, and currently oversee it.
 draft: false
@@ -19,13 +19,7 @@ CCM's original visual identity was guided by [Reilly Webster](https://www.byreil
 ## Tech Stack
 
 {{< stack >}}
-{{< icons/hugo >}}
-{{< icons/html >}}
-{{< icons/sass >}}
-{{< icons/bootstrap >}}
-{{< icons/js >}}
-{{< icons/github >}}
-{{< icons/netlify >}}
+{{< icons/hugo >}} {{< icons/html >}} {{< icons/sass >}} {{< icons/bootstrap >}} {{< icons/js >}} {{< icons/github >}} {{< icons/netlify >}}
 {{< /stack >}} 
 
 For the CCM site, my focus was on speed, cost-effectiveness, and efficiency. I decided to use a a static site generation stack to achieve these goals.

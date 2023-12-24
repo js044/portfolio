@@ -26,10 +26,10 @@
   {{ range where .Site.RegularPages "Params.tags" "intersect" (slice "featured") }}
   <div class="grid-item">
     <article>
-
       {{- $image := resources.Get .Params.featured_image -}}
       <img class="card-img" src="{{ ($image).RelPermalink }}">
       <h3>{{ .Title }}</h3>
+      {{- partial "taglist.html" . -}}
       <p>{{ .Summary }}</p>
       <p class="readmore"><a href="{{ .Permalink }}">Read more <i class="fa-solid fa-arrow-right"></i> </a>
       </p>

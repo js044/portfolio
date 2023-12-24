@@ -1,0 +1,10 @@
+<div class="tag-list">
+    {{ range .Params.tags }}
+    {{ if ne . "featured" }} <!-- Exclude the "featured" tag -->
+    {{ $formattedTag := replace . "design" " Design" }}
+    {{ $formattedTag := replace $formattedTag "development" " Development" }}
+    {{ $formattedTag := $formattedTag | title }}      
+    <p class="tag-button">{{ $formattedTag }}</p>
+    {{ end }}
+    {{ end }}
+  </div>

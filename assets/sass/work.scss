@@ -21,12 +21,21 @@ article {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	p {
+		margin: 0;
+	}
 }
 
 .readmore {
-	padding-top: 1em;
+	padding: 1em 0;
 	align-self: flex-end;
 	margin-top: auto;
+}
+
+.content {
+	p {
+		margin: 1em 0;
+	}
 }
 
 .filter-btn {
@@ -51,20 +60,20 @@ article {
 }
 
 .stack {
-	display: flex;		
+	display: flex;	
 	flex-wrap: wrap;
-
+	margin-top: 1em;
 }
   
 .right-img {
-	margin: 0 0 1em 2em;
+	margin: 1em 0 1em 2em;
 	float: right;
 	max-width: 30vw;	
 }
 
   
 .left-img {
-	margin: 0 2em 1em 0;
+	margin: 1em 2em 1em 0;
 	float: left;
 	max-width: 30vw;
 }
@@ -136,5 +145,22 @@ aside nav#TableOfContents {
 	@media (max-width: 767px) {
 	  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Fewer columns on smaller screens */
 	} 
+  }
+  
+
+  .tag-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+  }
+  
+  .tag-button {
+	border: 1.5px solid $fg-color;
+	background-color: $bg-color;
+	color: $fg-color;
+	border-radius: 4px;
+	padding: 6px 12px;
+	text-decoration: none;	
+	margin: 15px 0;
   }
   
