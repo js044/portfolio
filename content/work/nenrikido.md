@@ -13,18 +13,16 @@ Nenrikido is a web project I made to host my digital illustrations and free-to-u
 ## Style Guide
 
 ## Tech Stack
-Nenrikido utilizes a JAMSTACK workflow to 
 
 {{< stack >}}
-{{< icons/hugo >}}
-{{< icons/html >}}
-{{< icons/sass >}}
-{{< icons/js >}}
-{{< icons/github >}}
-{{< icons/neocities >}}
+{{< icons/hugo >}} {{< icons/html >}} {{< icons/sass >}} {{< icons/js >}} {{< icons/github >}} {{< icons/neocities >}}
 {{< /stack >}} 
+
+Nenrikido uses a static site generation stack to meet host site requirements and keep the site lightweight. My generator is **Hugo**, which allows for swift build times. I created a styling library with **SASS**, using theme maps and mix-ins to produce a visually interesting website. I also used **JavaScript** for functionality like modals, a footer clock, and theme switching. Additionally, I used JS libraries like **Muuri** and **Lunr** for layout control, draggable windows, tag filtering, and index/searching. The site is hosted on **Github** and I use a GitHub Action to automatically deploy my site to **Neocities**,  leveraging content-aware diffing for precise updates, optimizing efficiency by solely modifying altered files on each push.
 
 ## Notable Features
 Nenrikido is an ambitious web project that has a few notable features.
+
+### RSS-powered microblog
 
 ## Gallery

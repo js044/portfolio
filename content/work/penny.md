@@ -11,12 +11,10 @@ draft: false
 ## Overview
 
 ## Tech Stack
+The tech stack for Penny's website is very simple.
 
 {{< stack >}}
-{{< icons/html >}}
-{{< icons/css >}}
-{{< icons/js >}}
-{{< icons/github >}}
+{{< icons/html >}} {{< icons/css >}} {{< icons/js >}} {{< icons/github >}}
 {{< /stack >}} 
 
 ## Notable Features
