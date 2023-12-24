@@ -13,6 +13,7 @@ Nenrikido is a web project I made to host my digital illustrations and free-to-u
 ## Style Guide
 
 ## Tech Stack
+Nenrikido's only limitation is that it's a static website. It uses Muuri, Lunr, and other libraries to
 
 {{< stack >}}
 {{< icons/hugo >}}
