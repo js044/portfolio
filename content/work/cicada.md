@@ -7,14 +7,13 @@ summary: An interdisciplinary publication that showcases community creativity. I
 draft: false
 ---
 
-
 ## Overview 
 In 2017, as an undergraduate student, I noticed there were few on-campus literary magazines. The ones that did exist had rigid submission guidelines and limited who could submit based on GPA, major, etc. This felt too prohibitive to me, and so I started Cicada Creative Magazine (CCM). CCM is an all-arts publication that works to expand traditional notions of art and creativity and fosters a supportive community of creative people. 
 
-{{< lightbox lightbox-id="ccm" img-src="/images/work/ccm/styleguide.jpg" img-class="left-img" alt="A style guide." >}}
+{{< lightbox lightbox-id="ccm" img-src="/images/work/ccm/styleguide.png" img-class="left-img" alt="A style guide." >}}
 
 ## Style Guide
-CCM's original visual identity was guided by [Reilly Webster](https://www.byreilly.co/). I collaborated with her on the design and advocated for elements such as a black-and-white theme to enhance accessibility for readers who may need higher contrast. Once I started developing our website, I refined our visual identity and tweaked colors, layouts, fonts, and UI/UX like our hamburger menu behavior.
+CCM's original visual identity was guided by [Reilly Webster](https://www.byreilly.co/). I collaborated with her on the design and advocated for elements such as a black-and-white theme to enhance accessibility for readers who may need higher contrast. Once I started developing our website, I refined our visual identity and tweaked colors, layouts, fonts, and UI/UX like our hamburger menu behavior. For example, I changed our body font from a sans serif font to a serif font in order to increase legibility for written posts and increased contrast for our color schemes.
 
 ## Tech Stack
 
@@ -25,7 +24,6 @@ CCM's original visual identity was guided by [Reilly Webster](https://www.byreil
 For the CCM site, my focus was on speed, cost-effectiveness, and efficiency. I decided to use a a static site generation stack to achieve these goals.
 
 I used **Hugo** as our static site generator for its incredibly fast build time. Some of its features, such as image processing and fingerprinting, were of particular interest to CCM since we host so many images on our site. I also used the front-end framework, **Bootstrap**, to ensure a responsive user interface that looks good on any screen. But because CCM has a very distinct visual language and identity, **SASS** was useful in streamlining and maintaining our styles. With additional vanilla **Javascript** for user interactivity, like theme toggling and form submission, CCM is a very vibrant static site. Our repository is hosted on **Github** and then finally deployed with **Netlify**. Our deployment process is smooth and fast thanks to Netlify's serverless capabilities and seamless integration with Github.
-
 
 ## Notable Features
 
