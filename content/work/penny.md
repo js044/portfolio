@@ -7,8 +7,8 @@ summary: Penny Molesso's portfolio website. I co-designed and developed it to sh
 draft: false
 ---
 
-
 ## Overview
+Penny Molesso is a transmedia artist who needed a portfolio website and a place to display their thesis show. I helped them design the site and then coded and deployed it. 
 
 ## Tech Stack
 The tech stack for Penny's website is very simple.
@@ -18,3 +18,5 @@ The tech stack for Penny's website is very simple.
 {{< /stack >}} 
 
 ## Notable Features
+
+### Password protection
