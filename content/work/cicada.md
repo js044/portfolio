@@ -8,7 +8,7 @@ draft: false
 ---
 
 ## Overview 
-In 2017, as an undergraduate student, I noticed there were few on-campus literary magazines. The ones that did exist had rigid submission guidelines and limited who could submit based on GPA, major, etc. This felt too prohibitive to me, and so I started Cicada Creative Magazine (CCM). CCM is an all-arts publication that works to expand traditional notions of art and creativity and fosters a supportive community of creative people. 
+In 2017, as an undergraduate student, I noticed there were few on-campus literary magazines. The ones that did exist had rigid submission guidelines and limited who could submit based on GPA, major, etc. This felt too prohibitive to me, and so I started Cicada Creative Magazine (CCM). CCM is an all-arts publication that works to expand traditional notions of art and creativity and fosters a supportive community of creative people. You can visit the CCM website [here](https://www.cicadacreativemag.com/).
 
 {{< lightbox lightbox-id="ccm" img-src="/images/work/ccm/styleguide.png" img-class="left-img" alt="A style guide." >}}
 
@@ -40,11 +40,11 @@ Our theme for Issue 07 of CCM was 'You are here.' Our branding was oriented arou
 ### Newsletter
 Two staff members thought it would be a good idea to implement a monthly newsletter with staff-contributed blog posts and organizational announcements. Initially, they were using templates provided by Mailchimp. When I got a chance, I redesigned the newsletter and switched our service to Smaily, which allows for a great degree of customizability. I decided our newsletter should change color schemes from issue to issue to clearly signify changing "cycles. The newsletter works in tandem with our blog, which was another major contributor to my choosing Hugo to generate our site. It features content from staff, but may expand to include submissions from the public as well.
 
-### Contact Form
-One common struggle with static sites is how to manage contact forms. We went through several iterations--trying a backend with PHP (which worked, but was too costly), using API webhooks with Discord (fine, but limited us to Discord), and 3rd party form managers. When I was selecting a service to deploy our site, I noticed that Netlify ships with forms. Better yet, their free tier allows for it. And with the assistance of webhooks, these forms can be sent straight to your inbox. This has greatly enhanced our responsiveness to potential submitters.
+### Blog
+As previously mentioned, we publish a newsletter once a month. Contained within this newsletter, we typically have blog posts that are written and copyedited by staff. Once a month, a staff member proposes a theme and opens blog post sign-ups. Our blog has a comment section powered by HTMLCommentBox and includes pagination using a modified version of Hugo's base paginator functionality.
 
 ### Issues
-Our issues are arguably the most notable element of our publication. We publish once to twice a year after gathering submissions from the public and engaging in an internal review cycle. Displaying these with Hugo was initially challenging, but leveraging Hugo's powerful 'type' method (which reads the page type from a markdown file's front matter), I created issue pages that feature tiled grids with a mixture of different thumbnail types. We currently have three different thumbnail types, which are for art pieces, audio pieces, and writing pieces. Video pieces typically use art thumbnails. Some thumbnails are transparent and some are cropped squares. Hugo fingerprints and crops these images to optimize them for slower connections.
+Our issues are arguably the most notable element of our publication. We publish once to twice a year after gathering submissions from the public and engaging in an internal review cycle. Displaying these with Hugo was initially challenging, but leveraging Hugo's powerful 'type' method (which reads the page type from a markdown file's front matter), I created issue pages that feature tiled grids with a mixture of different thumbnail types. We currently have three different thumbnail types, which are for art pieces, audio pieces, and writing pieces. Video pieces typically use art thumbnails. Some thumbnails are transparent and some are cropped squares. We used to manually crop and compress all images, which was a time-consuming process. Instead, we now use Hugo to fingerprint and crop these images to optimize them for slower connections. 
 
 {{< lightbox lightbox-id="ccm" img-src="/images/work/ccm/documentation.png" img-class="right-img" alt="A stack of postcards." >}}
 

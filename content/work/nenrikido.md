@@ -8,20 +8,20 @@ draft: false
 ---
 
 ## Overview
-Nenrikido is a web project I made to host my digital illustrations and free-to-use code. It is also home to a digital library, a richly featured Hugo-powered blog, and an RSS-integrated microblog. The site is modelled after a desktop layout and features a start menu footer modal, draggable windows, a search bar, and multiple themes.
+Nenrikido is a hybrid web project/social media account I made to host my digital illustrations and free-to-use code. It is also home to a digital library, an RSS-powered microblog, and other fun, interactive elements. The site is designed to mimic a desktop layout and features a start menu footer modal, draggable windows, a search bar, and multiple themes.
 
 {{< lightbox lightbox-id="nen" img-src="/images/work/nenrikido/styleguide.png" img-class="left-img" alt="A style guide." >}}
 
 ## Style Guide
-One of the most salient elements of Nenrikido's visual identity is the use of multiple different themes. Each theme triggers a change in header and body fonts, as well as color schemes. The background, the window backgrounds, the font, the window headers, and the window shadows all change color when the user selects a theme. The favicon also changes depending on which theme is active. On the index page, the menu icons change as well. I make an effort to use fonts that are free for commercial usage--the heart theme (Distro and National Park), the bubbles theme (Franxurter and Nunito), as well as the body font of the tulip theme (Delius) are all free.
+One of the most salient elements of Nenrikido's visual identity is the use of multiple different theme. Each theme triggers a change in header and body fonts, the favicon, and the color schemes. On the index page, the menu icons change as well. I make an effort to use fonts that are free for commercial usage--the heart theme (Distro and National Park), the bubbles theme (Franxurter and Nunito), as well as the body font of the tulip theme (Delius) are all free.
 
 ## Tech Stack
 
 {{< stack >}}
-{{< icons/hugo >}} {{< icons/html >}} {{< icons/sass >}} {{< icons/js >}} {{< icons/github >}} {{< icons/neocities >}}
+{{< icons/hugo >}} {{< icons/html >}} {{< icons/sass >}} {{< icons/js >}} {{< icons/github >}} {{< icons/githubactions >}} {{< icons/neocities >}}
 {{< /stack >}} 
 
-Nenrikido uses a static site generation stack to meet host site requirements and keep the site lightweight. My generator is **Hugo**, which allows for swift build times. I created a styling library with **SASS**, using theme maps and mix-ins to produce a visually interesting website. I also used **JavaScript** for functionality like modals, a footer clock, and theme switching. Additionally, I used JS libraries like **Muuri** and **Lunr** for layout control, draggable windows, tag filtering, and index/searching. The site is hosted on **Github** and I use a GitHub Action to automatically deploy my site to **Neocities**,  leveraging content-aware diffing for precise updates, optimizing efficiency by solely modifying altered files on each push.
+Nenrikido uses a static site generation stack to meet host site requirements and keep the site lightweight. My generator is **Hugo**, which allows for swift build times. I created a styling library with **SASS**, using theme maps and mix-ins to produce a visually interesting website. I also used **JavaScript** for functionality like modals, a footer clock, and theme switching. Additionally, I used JS libraries like **Muuri** and **Lunr** for layout control, draggable windows, tag filtering, and index/searching. The site is hosted on **Github** and I use a **GitHub Action** to automatically deploy my site to **Neocities**,  leveraging content-aware diffing for precise updates, optimizing efficiency by solely modifying altered files on each push.
 
 ## Notable Features
 Nenrikido is an ambitious web project that will only grow over time. A few of its most notable features are its themes, a fully-featured original webring, and an RSS-powered microblog.
@@ -29,7 +29,7 @@ Nenrikido is an ambitious web project that will only grow over time. A few of it
 {{< lightbox lightbox-id="nen" img-src="/images/work/nenrikido/themes.gif" img-class="left-img" alt="A gif demonstrating a layout that is changing on a button click." >}}
 
 ### Themes
-As mentioned previously, Nenrikido's themes are one of the most notable elements of the website. Each theme uses a [Twemoji](https://twemoji.twitter.com/)-rendered emoji as its icon representation (in order to ensure consistent display). Clicking on the button triggers a theme swap that modifies the fonts, color schemes, and icons. I have a standing poll to gauge what themes most users prefer. The "dark mode" theme (ZZZ) is the most popular as of now. Themes have been updated over time to be more accessible/vision friendly. The Muuri grid layout is updated with each theme in Javascript to ensure there are no gaps between windows.
+As mentioned previously, Nenrikido's themes are one of the most notable elements of the website. Each theme uses a [Twemoji](https://twemoji.twitter.com/)-rendered emoji as its icon representation (in order to ensure consistent display). Clicking on the button triggers a theme swap that modifies the fonts, color schemes, and icons. I have a standing poll to gauge what themes most users prefer. The "dark mode" theme (ZZZ) is the most popular as of now. Themes have been updated over time to be more accessible/vision friendly. The Muuri grid layout is updated with each theme in Javascript to ensure there are no gaps between windows. The layout of the site is fully responsive; different viewports render a different number of columns. On mobile, these windows collapse to one column.
 
 {{< lightbox lightbox-id="nen" img-src="/images/work/nenrikido/journalring.gif" img-class="right-img" alt="A gif flipping through a digital journal." >}}
 
@@ -39,7 +39,7 @@ I created a [webring](https://nenrikido.neocities.org/webrings/journalring/) cal
 {{< lightbox lightbox-id="nen" img-src="/images/work/nenrikido/rss.png" img-class="left-img" alt="A style guide." >}}
 
 ### RSS-powered microblog
-I modified a [script](https://github.com/22ru/microblog) that mimics earlier versions of Twitter by styling an RSS feed that is generated by Javascript. I made changes to how the microblog is initialized (getting rid of the &lt;body onload="retrieveXML()"> initialization) and also added a function to handle pagination. I also implemented custom styling utilizing the [particles.js](https://vincentgarreau.com/particles.js/) library and vanilla CSS. An official fork of the script is forthcoming, as well as free-to-use skins to encourage more people to adopt a platform agnostic configurable RSS feed. This technology both pays homage to "old web" techonologies such as XML while also blending more modern approaches to communication (social media feeds).
+I modified a [script](https://github.com/22ru/microblog) that mimics earlier versions of Twitter by styling an RSS feed that is generated by Javascript. I made changes to how the microblog is initialized and added a function to handle pagination. I also implemented custom styling utilizing the [particles.js](https://vincentgarreau.com/particles.js/) library and vanilla CSS. An official fork of the script is forthcoming, as well as free-to-use skins to encourage more people to adopt a platform agnostic configurable RSS feed. This technology both pays homage to "old web" techonologies such as XML while also blending more modern approaches to communication (social media feeds).
 
 ## Gallery
 
