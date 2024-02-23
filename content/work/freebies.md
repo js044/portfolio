@@ -10,13 +10,6 @@ draft: false
 ## Overview
 I've created a few platform-agonstic template HTML/CSS/JS layouts with the intention of encouraging more people to build personal websites. These layouts use CSS variables to enable user customization and include ample in-code instruction to help beginners. All these freebie codes are hosted in a dedicated [Github repository](https://github.com/js044/freebies) and posted on social media to get the word out.
 
-## Style Guides
-### Sunflower
-
-### Rainbow
-
-### Sakura
-
 ## Tech Stack
 
 {{< stack >}}
@@ -29,6 +22,7 @@ I try to keep the tech as simple as possible to be beginner-friendly. A lot of u
 ## Notable Features
 ### CSS variables
 
+### Mobile responsiveness
 
 ## Gallery
 
