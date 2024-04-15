@@ -8,7 +8,7 @@ draft: false
 ---
 
 ## Overview
-Moo-yu is a product design and branding project for a probiotic milk beverage similar to [yakult](https://en.wikipedia.org/wiki/Yakult). Its target audience is Korean-Americans who miss the drink and recognize the brand title as a bilingual pun. 
+Moo-yu is a product design and branding project for a probiotic milk beverage similar to [yakult](https://en.wikipedia.org/wiki/Yakult). Its target audience is bilingual Koreans in English speaking countries who miss the drink and recognize the brand title as a bilingual pun, but it is also intended to function as a cultural bridge for English speakers who are unfamiliar with it.
 
 {{< lightbox lightbox-id="moo" img-src="/images/work/mooyu/styleguide.png" img-class="left-img" alt="A style guide." >}}
 
