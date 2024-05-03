@@ -10,8 +10,6 @@ draft: false
 ## Overview
 This entry encompasses how I designed and implemented this website, as well as detailing the visual identity I've formed to guide my collateral material, like business cards and my resume. My primary aim was to creating a memorable, playful brand with a consistent visual identity.
 
-## Style Guide
-
 ## Design Tools
 
 {{< stack >}}
