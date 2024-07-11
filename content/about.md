@@ -8,13 +8,14 @@ draft: false
 
 {{< bio >}}
 
-Hi. I'm Jay, a multidisciplinary graphic designer who likes decorating online spaces and playing with code. My primary interests include web development, UI/UX and web design, and digital illustration, but I also dabble in visual identity and product design.
+Hello! I'm Jay. I love art, writing, video games, and cats. I'm insatiably curious and driven to learn everything I can. My latest venture is attempting to self-teach object-oriented programming to see where it takes me. Thank you for visiting my portfolio. Feel free to explore, and don't hesitate to reach out at jserrano.97@outlook.com.
 
-Design influences our decisions, from the products we select at stores to the books we pick from shelves. We don't always understand why, or how, but it does. I've always liked knowing the "why" and the "how," so I pursued a BFA in Graphic Design. During my undergraduate program, I learned design theory and how to practically apply it. I ended up founding  [Cicada Creative Magazine](https://cicadacreativemag.com/), an all-arts publication. My understanding of graphic design helped me launch the project, and in trying to get it off the ground, I discovered another passion. 
+For a little more background: I've always been drawn to art, especially cartoons with vibrant colors and bold, eye-catching designs. As a child, I noticed how much design influenced our daily decisions and perceptions of reality. Which products we selected at the grocery store, how we judged books by their covers, the color of the crossing guard's uniform. Design was more than mere decoration; design was communication.
 
-We needed a website to host our periodical. I co-designed the website, but the team realized we did not know how to actually implement it. As I had recently become interested in front-end web development, I decided to take on the task. It turned out to be more challenging and rewarding than I had expected. This venture with CCM merged my design expertise with my managerial skills and pushed me to grow. As Editor-in-Chief, I continue to guide the organization and oversee the website.
+This remained compelling to me even after I went to university. I majored in graphic design and learned more about the science of art, from color theory to anatomy to Gestalt principles. During my undergrad years, I launched an interdisciplinary creative publication called [Cicada Creative Magazine](https://cicadacreativemag.com/), which allowed me to flex my newfound design skills and develop my ability to manage a team.
 
-After I graduated, I began working in freelance web design and development. This taught me to engage with a wide array of projects and clients, manage multiple priorities, and work independently. I've also realized that learning is a lifelong process, staying up to date on the latest design trends and best coding practices. 
+I had previously started to learn HTML and CSS through ventures on MySpace, Neopets, and Tumblr, and when CCM needed a website to host our periodical, I thought it would be simple enough to put these skills into practice. This assumption proved to be incorrect, but it was a surprisingly gratifying learning experience, and I became passionate about front-end web development. 
 
-To unwind, I enjoy writing, reading, and playing video games. I love cats and taking walks. I'm endlessly curious and I always have more to learn--I'm currently learning more about object oriented programming to see where that takes me. Thank you for visiting my portfolio. Feel free to explore, and don't hesitate to reach out at jserrano.97@outlook.com.
+After I graduated, I began working in freelance web design and development. I wanted to blend everything I had learned to help people launch their projects, and also stay up-to-date on best practices and design trends. These experiences have been valuable to me, and I'm always grateful for more opportunities to learn.
+
 {{< /bio >}}

@@ -10,6 +10,11 @@ draft: false
 ## Overview
 This entry encompasses how I designed and implemented this website, as well as detailing the visual identity I've formed to guide my collateral material, like business cards and my resume. My primary aim was to creating a memorable, playful brand with a consistent visual identity.
 
+{{< lightbox lightbox-id="nen" img-src="/images/work/branding/persbranding.png" img-class="left-img" alt="A style guide." >}}
+
+## Style Guide
+My personal branding utilizes two primary color schemes to create a light mode and a dark mode while still maintaining visual cohesion. I wanted to break away from traditional a white/black dichotomy and use something more visually lighthearted.
+
 ## Design Tools
 
 {{< stack >}}

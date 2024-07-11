@@ -1,6 +1,6 @@
 ---
 title: Freebies
-weight: 
+weight: 6
 tags: ["webdesign", "webdevelopment"]
 featured_image: /images/work/thumb/freebies_thumb.png
 summary: Free to use HTML/CSS/JS layouts released under the MIT license for everyone. Each one is optimized for mobile-friendliness and includes in-code instructions.
