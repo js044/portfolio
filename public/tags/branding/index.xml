@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Branding on Jay Serrano</title>
+    <link>//localhost:1313/tags/branding/</link>
+    <description>Recent content in Branding on Jay Serrano</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/branding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cicada Creative Magazine</title>
+      <link>//localhost:1313/work/cicada/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/cicada/</guid>
+      <description>An interdisciplinary publication that showcases community creativity. I founded it, co-designed and developed the website, and currently oversee it.</description>
+    </item>
+    <item>
+      <title>Finca Casa Blanca Branding</title>
+      <link>//localhost:1313/work/finca-casa-blanca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/finca-casa-blanca/</guid>
+      <description>Finca Casa Blanca is a Puerto Rican Airbnb. The property owner asked me to create a print-ready informational booklet to distribute to guests and refine their branding.</description>
+    </item>
+    <item>
+      <title>Personal Branding</title>
+      <link>//localhost:1313/work/personal-branding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/personal-branding/</guid>
+      <description>My personal branding. It includes mock-ups for business cards as well as my resume design and details about my portfolio website.</description>
+    </item>
+    <item>
+      <title>Moo-yu Mock-up</title>
+      <link>//localhost:1313/work/mooyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/mooyu/</guid>
+      <description>A product design project in which I created branding and mock-ups for a bilingual Korean/English branded yogurt drink.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 ---
 title: Finca Casa Blanca Branding
-weight: 7
-tags: ["branding"]
+weight: 2
+tags: ["featured", "branding"]
 featured_image: /images/work/thumb/finca_thumb.jpg
 summary: Finca Casa Blanca is a Puerto Rican Airbnb. The property owner asked me to create a print-ready informational booklet to distribute to guests and refine their branding. 
 draft: false

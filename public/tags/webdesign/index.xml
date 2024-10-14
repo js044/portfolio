@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdesign on Jay Serrano</title>
+    <link>//localhost:1313/tags/webdesign/</link>
+    <description>Recent content in Webdesign on Jay Serrano</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/webdesign/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cicada Creative Magazine</title>
+      <link>//localhost:1313/work/cicada/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/cicada/</guid>
+      <description>An interdisciplinary publication that showcases community creativity. I founded it, co-designed and developed the website, and currently oversee it.</description>
+    </item>
+    <item>
+      <title>Penny Molesso&#39;s Portfolio</title>
+      <link>//localhost:1313/work/penny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/penny/</guid>
+      <description>Penny Molesso&amp;rsquo;s portfolio website. I co-designed and developed it to showcase their body of work. I also implemented a password-protected thesis show.</description>
+    </item>
+    <item>
+      <title>Personal Branding</title>
+      <link>//localhost:1313/work/personal-branding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/personal-branding/</guid>
+      <description>My personal branding. It includes mock-ups for business cards as well as my resume design and details about my portfolio website.</description>
+    </item>
+    <item>
+      <title>Nenrikido</title>
+      <link>//localhost:1313/work/nenrikido/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/nenrikido/</guid>
+      <description>A multi-purpose website I designed and developed with an emphasis on art. It features a desktop-style layout with draggable windows and multiple themes.</description>
+    </item>
+    <item>
+      <title>Freebies</title>
+      <link>//localhost:1313/work/freebies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/work/freebies/</guid>
+      <description>Free to use HTML/CSS/JS layouts released under the MIT license for everyone. Each one is optimized for mobile-friendliness and includes in-code instructions.</description>
+    </item>
+  </channel>
+</rss>
