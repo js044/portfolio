@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Featured on Jay Serrano</title>
-    <link>//localhost:1313/tags/featured/</link>
+    <link>http://localhost:51258/tags/featured/</link>
     <description>Recent content in Featured on Jay Serrano</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51258/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cicada Creative Magazine</title>
-      <link>//localhost:1313/work/cicada/</link>
+      <link>http://localhost:51258/work/cicada/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/work/cicada/</guid>
+      <guid>http://localhost:51258/work/cicada/</guid>
       <description>An interdisciplinary publication that showcases community creativity. I founded it, co-designed and developed the website, and currently oversee it.</description>
     </item>
     <item>
       <title>Finca Casa Blanca Branding</title>
-      <link>//localhost:1313/work/finca-casa-blanca/</link>
+      <link>http://localhost:51258/work/finca-casa-blanca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/work/finca-casa-blanca/</guid>
+      <guid>http://localhost:51258/work/finca-casa-blanca/</guid>
       <description>Finca Casa Blanca is a Puerto Rican Airbnb. The property owner asked me to create a print-ready informational booklet to distribute to guests and refine their branding.</description>
     </item>
     <item>
       <title>Penny Molesso&#39;s Portfolio</title>
-      <link>//localhost:1313/work/penny/</link>
+      <link>http://localhost:51258/work/penny/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/work/penny/</guid>
+      <guid>http://localhost:51258/work/penny/</guid>
       <description>Penny Molesso&amp;rsquo;s portfolio website. I co-designed and developed it to showcase their body of work. I also implemented a password-protected thesis show.</description>
     </item>
   </channel>
