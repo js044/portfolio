@@ -2,52 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:51258/work/cicada/</loc>
+    <loc>//localhost:1313/work/cicada/</loc>
     <lastmod>2024-07-26T23:30:03-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/work/finca-casa-blanca/</loc>
+    <loc>//localhost:1313/work/finca-casa-blanca/</loc>
     <lastmod>2024-10-14T00:56:18-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/work/penny/</loc>
+    <loc>//localhost:1313/work/penny/</loc>
     <lastmod>2024-07-26T23:30:03-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/work/personal-branding/</loc>
-    <lastmod>2024-07-26T23:30:03-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:51258/work/nenrikido/</loc>
+    <loc>//localhost:1313/work/nenrikido/</loc>
     <lastmod>2024-10-14T00:56:11-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/work/freebies/</loc>
+    <loc>//localhost:1313/work/freebies/</loc>
     <lastmod>2024-07-26T23:30:03-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/work/mooyu/</loc>
+    <loc>//localhost:1313/work/mooyu/</loc>
     <lastmod>2024-10-14T00:44:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/about/</loc>
-    <lastmod>2024-10-14T00:55:20-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:51258/contact/</loc>
+    <loc>//localhost:1313/contact/</loc>
     <lastmod>2024-07-26T23:30:03-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/tags/branding/</loc>
+    <loc>//localhost:1313/tags/branding/</loc>
     <lastmod>2024-10-14T00:56:18-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/tags/featured/</loc>
+    <loc>//localhost:1313/tags/featured/</loc>
     <lastmod>2024-10-14T00:56:18-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/</loc>
-    <lastmod>2024-07-26T23:30:03-04:00</lastmod>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-09-10T00:24:30-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-10-14T00:56:18-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/tags/webdesign/</loc>
+    <loc>//localhost:1313/tags/webdesign/</loc>
     <lastmod>2024-10-14T00:56:11-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/tags/webdevelopment/</loc>
+    <loc>//localhost:1313/tags/webdevelopment/</loc>
     <lastmod>2024-10-14T00:56:11-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:51258/work/</loc>
+    <loc>//localhost:1313/work/</loc>
     <lastmod>2024-07-26T23:30:03-04:00</lastmod>
   </url>
 </urlset>
