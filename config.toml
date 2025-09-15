@@ -2,7 +2,7 @@
   languageCode = "en-us"
   defaultContentLanguage = "en"
   baseURL = "/"
-  title = "Jay Serrano"
+  title = "Jayleen Serrano"
   relativeURLS = true
 
   [taxonomies]
@@ -14,7 +14,7 @@
 
   [params]
   author = ""
-  description = "Jay makes things."
+  description = "Jayleen makes things."
 
       
  [frontmatter]
