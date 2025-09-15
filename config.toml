@@ -1,4 +1,4 @@
- BaseURL = "https://jayleen.info"
+ BaseURL = "https://jayleen.netlify.app"
   languageCode = "en-us"
   defaultContentLanguage = "en"
   baseURL = "/"
