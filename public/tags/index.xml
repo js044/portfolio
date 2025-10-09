@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jay Serrano</title>
-    <link>//localhost:1313/tags/</link>
-    <description>Recent content in Tags on Jay Serrano</description>
+    <title>Tags on Jayleen Serrano</title>
+    <link>https://jayleen.netlify.app/tags/</link>
+    <description>Recent content in Tags on Jayleen Serrano</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jayleen.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Branding</title>
-      <link>//localhost:1313/tags/branding/</link>
+      <link>https://jayleen.netlify.app/tags/branding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/branding/</guid>
+      <guid>https://jayleen.netlify.app/tags/branding/</guid>
       <description></description>
     </item>
     <item>
       <title>Featured</title>
-      <link>//localhost:1313/tags/featured/</link>
+      <link>https://jayleen.netlify.app/tags/featured/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/featured/</guid>
+      <guid>https://jayleen.netlify.app/tags/featured/</guid>
       <description></description>
     </item>
     <item>
       <title>Webdesign</title>
-      <link>//localhost:1313/tags/webdesign/</link>
+      <link>https://jayleen.netlify.app/tags/webdesign/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/webdesign/</guid>
+      <guid>https://jayleen.netlify.app/tags/webdesign/</guid>
       <description></description>
     </item>
     <item>
       <title>Webdevelopment</title>
-      <link>//localhost:1313/tags/webdevelopment/</link>
+      <link>https://jayleen.netlify.app/tags/webdevelopment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/webdevelopment/</guid>
+      <guid>https://jayleen.netlify.app/tags/webdevelopment/</guid>
       <description></description>
     </item>
   </channel>

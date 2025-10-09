@@ -7,4 +7,4 @@ draft: false
 
 ## My name is *Jayleen Serrano*. 
 
-Welcome to my portfolio website. You can access a PDF portfolio of the projects listed on this site [here](/portfolio.pdf). I currently do design and development work. I specialize in responsive web design and coding static websites, but I also do branding and visual identity work. I graduated from Colorado State University with a BFA in Graphic Design. Recently, I was admitted to the Georgia Institute of Technology's Master's program in Analytics. I'm also the founder and Editor-in-chief of [Cicada Creative Magazine](https://cicadacreativemag.com/). If you'd like to get in touch, you can use my [contact form](/contact).
+Welcome to my portfolio website! I currently do marketing and design work for Athens-Clarke County Library, but I'm also passionate about responsive web design and coding static websites. I'm also the founder and Editor-in-chief of [Cicada Creative Magazine](https://cicadacreativemag.com/), an online all-arts publication. If you'd like to get in touch about a project or collaboration, feel free to use my [contact form](/contact)!

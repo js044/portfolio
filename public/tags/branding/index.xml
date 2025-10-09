@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Branding on Jay Serrano</title>
-    <link>//localhost:1313/tags/branding/</link>
-    <description>Recent content in Branding on Jay Serrano</description>
+    <title>Branding on Jayleen Serrano</title>
+    <link>https://jayleen.netlify.app/tags/branding/</link>
+    <description>Recent content in Branding on Jayleen Serrano</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/tags/branding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jayleen.netlify.app/tags/branding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cicada Creative Magazine</title>
-      <link>//localhost:1313/work/cicada/</link>
+      <link>https://jayleen.netlify.app/work/cicada/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/work/cicada/</guid>
+      <guid>https://jayleen.netlify.app/work/cicada/</guid>
       <description>An interdisciplinary publication that showcases community creativity. I founded it, co-designed and developed the website, and currently oversee it.</description>
     </item>
     <item>
       <title>Finca Casa Blanca Branding</title>
-      <link>//localhost:1313/work/finca-casa-blanca/</link>
+      <link>https://jayleen.netlify.app/work/finca-casa-blanca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/work/finca-casa-blanca/</guid>
+      <guid>https://jayleen.netlify.app/work/finca-casa-blanca/</guid>
       <description>Finca Casa Blanca is a Puerto Rican Airbnb. The property owner asked me to create a print-ready informational booklet to distribute to guests and refine their branding.</description>
     </item>
     <item>
       <title>Moo-yu Mock-up</title>
-      <link>//localhost:1313/work/mooyu/</link>
+      <link>https://jayleen.netlify.app/work/mooyu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/work/mooyu/</guid>
+      <guid>https://jayleen.netlify.app/work/mooyu/</guid>
       <description>A product design project in which I created branding and mock-ups for a bilingual Korean/English branded yogurt drink.</description>
     </item>
   </channel>
